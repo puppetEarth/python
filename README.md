@@ -1,21 +1,8 @@
 # python
 python tutorial
 
-1. Name assignment(variables and constants)
-By using the assignment = operator: <name> = <value>, a variable can be reassigned (or re-bound) to different values (different object types) over its lifetime.
-
->>> my_first_variable = 1  # my_first_variable bound to an integer object of value one.
->>> my_first_variable = 2  # my_first_variable re-assigned to integer value 2.
-
->>> print(type(my_first_variable))
-<class 'int'>
-
->>> print(my_first_variable)
-2
-
->>> my_first_variable = "Now, I'm a string." # You may re-bind a name to a different object type and value.
->>> print(type(my_first_variable))
-<class 'str'>
-
->>> print(my_first_variable)
-"Now, I'm a string."  # Strings can be declared using single or double quote marks.
+3-4字符串数据类型
+字符串：包含在单引号（''）或双引号（""）之间的任意个数字元符号的数据。
+3-4-1字符串的连接
+数学的运算符“+”可以连接两个字符串，产生新的字符串。
+3-4-2
